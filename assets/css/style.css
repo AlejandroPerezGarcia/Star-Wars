@@ -85,6 +85,18 @@ body {
   }
 }
 
+.red {
+  background-color: #fa8072;
+}
+
+.green {
+  background-color: #90ee90;
+}
+
+.blue {
+  background-color: #87cefa;
+}
+
 /** color puntos de las tarjetas red*/
 
 .single-timeline-area .single-timeline-content .timeline-icon {
@@ -101,17 +113,6 @@ body {
   margin-right: 15px;
 }
 
-.red {
-  background-color: #fa8072;
-}
-
-.green {
-  background-color: #90ee90;
-}
-
-.blue {
-  background-color: #87cefa;
-}
 /** color puntos de las tarjetas green*/
 /* .single-timeline-area .single-timeline-content .timeline-icon {
   -webkit-transition-duration: 500ms;

@@ -11,7 +11,7 @@ export default class CardPersonaje extends Personaje {
       )
     }
     super({ name, height, mass })
-    this.#color
+    this.#color = color
     this.numberList = numberList
     console.log(color)
   }
