@@ -85,14 +85,13 @@ body {
   }
 }
 
-/** color piuntos de las tarjetas */
+/** color puntos de las tarjetas red*/
 
-.single-timeline-area .single-timeline-content .timeline-icon-red {
+.single-timeline-area .single-timeline-content .timeline-icon {
   -webkit-transition-duration: 500ms;
   transition-duration: 500ms;
   width: 30px;
   height: 30px;
-  background-color: #f7826a;
   -webkit-box-flex: 0;
   -ms-flex: 0 0 30px;
   flex: 0 0 30px;
@@ -102,22 +101,19 @@ body {
   margin-right: 15px;
 }
 
-.single-timeline-area .single-timeline-content .timeline-icon-green {
-  -webkit-transition-duration: 500ms;
-  transition-duration: 500ms;
-  width: 30px;
-  height: 30px;
-  background-color: #aafc9f;
-  -webkit-box-flex: 0;
-  -ms-flex: 0 0 30px;
-  flex: 0 0 30px;
-  text-align: center;
-  max-width: 30px;
-  border-radius: 50%;
-  margin-right: 15px;
+.red {
+  background-color: #fa8072;
 }
 
-.single-timeline-area .single-timeline-content .timeline-icon-blue {
+.green {
+  background-color: #90ee90;
+}
+
+.blue {
+  background-color: #87cefa;
+}
+/** color puntos de las tarjetas green*/
+/* .single-timeline-area .single-timeline-content .timeline-icon {
   -webkit-transition-duration: 500ms;
   transition-duration: 500ms;
   width: 30px;
@@ -130,7 +126,23 @@ body {
   max-width: 30px;
   border-radius: 50%;
   margin-right: 15px;
-}
+} */
+
+/** color puntos de las tarjetas blue*/
+/* .single-timeline-area .single-timeline-content .timeline-icon {
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms;
+  width: 30px;
+  height: 30px;
+  background-color: #aafc9f;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 30px;
+  flex: 0 0 30px;
+  text-align: center;
+  max-width: 30px;
+  border-radius: 50%;
+  margin-right: 15px;
+} */
 
 .single-timeline-area .single-timeline-content .timeline-icon i {
   color: #ffffff;
