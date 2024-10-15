@@ -1,4 +1,4 @@
-import Personaje from './Personaje.js'
+import Personaje from './Personaje.mjs'
 
 export default class CardPersonaje extends Personaje {
   #color

@@ -1,5 +1,5 @@
-import swapiData from '../api/Swapi.js'
-import CardPersonaje from '../class/CardPersonaje.js'
+import swapiData from '../api/Swapi.mjs'
+import CardPersonaje from '../class/CardPersonaje.mjs'
 
 const CardGenerador = () => {
   const onFulfilled = async ({
